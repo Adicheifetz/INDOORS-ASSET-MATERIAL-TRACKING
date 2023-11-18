@@ -31,7 +31,7 @@
         background-color:rgb(151, 164, 170);
         
     }
-    .storg{
+    .storage{
         grid-area: 1/2/2/3;
         order: 0;
         background-color: #d3d1d1;
@@ -124,7 +124,7 @@
             background-color:rgb(151, 164, 170);
             
         }
-        .storg{
+        .storage{
             grid-area: 1/2/2/3;
             order: 0;
             background-color: #d3d1d1;
@@ -216,7 +216,7 @@
             order: 0;
             background-color: rgb(151, 164, 170);
         }
-        .storg{
+        .storage{
             grid-area: 1/2/2/3;
             order: 0;
             background-color: #d3d1d1;
@@ -311,7 +311,7 @@
             background-color:rgb(151, 164, 170);
             
         }
-        .storg{
+        .storage{
             grid-area: 1/2/2/3;
             order: 0;
             background-color: #d3d1d1;
@@ -403,7 +403,7 @@
             order: 0;
             background-color: rgb(151, 164, 170);
         }
-        .storg{
+        .storage{
             grid-area: 1/2/2/3;
             order: 0;
             background-color: #d3d1d1;
@@ -496,7 +496,7 @@
             order: 0;
             background-color: rgb(151, 164, 170);
         }
-        .storg{
+        .storage{
             grid-area: 1/2/2/3;
             order: 0;
             background-color: #d3d1d1;
