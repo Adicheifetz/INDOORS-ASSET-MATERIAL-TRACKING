@@ -37,8 +37,8 @@
       // Update the tag position on the canvas
       updateTagPosition(newX, newY);
 
-      // Set a timer for the next update (every 1000 milliseconds / 1 second)
-      setTimeout(simulateUpdate, 1000);
+      // Set a timer for the next update (every 1500 milliseconds / 1 second)
+      setTimeout(simulateUpdate, 2000);
   }
 
   // Start the simulation

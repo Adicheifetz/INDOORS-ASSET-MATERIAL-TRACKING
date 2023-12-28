@@ -3,12 +3,15 @@
 @media(min-width:1201px){
     body{
         text-align: center;
+        background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 120%;
     }
     #uwb-canvas{
             
         background-image: url('./assets/lab1.jpg');
-        background-size:100% 100%;
+        background-size: 100% 100%;
         width: 900px;
+        
     }
     h1{
         color: #2f4f4f;
@@ -16,36 +19,47 @@
     }
     }
     @media(min-width:1000px) and (max-width:1200px){
-        body{
+        body {
             text-align: center;
-        }
-        #uwb-canvas{
+            background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 110%;
             
+        }
+        
+        #uwb-canvas {
             background-image: url('./assets/lab1.jpg');
-            background-size:100% 100%;
+            background-size: 100% 100%;
             width: 800px;
-            height: 350px;
-        }
-        h1{
-            color: #2f4f4f;
+            height: 330px;
             
         }
+        
+        h1 {
+            color: #2f4f4f;
+            margin-bottom: 10vh;
+            margin-top: 10vh;
+        }
+        
       }
       @media(min-width:800px) and (max-width:999px)
       {
         body{
             text-align: center;
+            background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 110%;
         }
         #uwb-canvas{
             
             background-image: url('./assets/lab1.jpg');
             background-size:100% 100%;
             width: 700px;
-            height: 300px;
+            height: 275px;
         }
         h1{
             color: #2f4f4f;
             font-size: x-large;
+            margin-bottom: 6vh;
+            margin-top:6vh;
             
         }
       }
@@ -53,6 +67,8 @@
       {
         body{
             text-align: center;
+            background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 115%;
         }
         #uwb-canvas{
             
@@ -64,12 +80,16 @@
         h1{
             color: #2f4f4f;
             font-size: large;
+            margin-bottom: 10vh;
+            margin-top: 10vh;
         }
       }
       @media(min-width:481px) and (max-width:599px)
       {
         body{
             text-align: center;
+            background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 120%;
         }
         #uwb-canvas{
             
@@ -77,17 +97,21 @@
             background-size:100% 100%;
             width: 300px;
             height: 130px;
+
         }
         h1{
             color: #2f4f4f;
             font-size: medium;
             text-align: center;
+            
            
         }
       }
       @media (min-width:319px) and (max-width:480px){
         body{
             text-align: center;
+            background-image: url('./assets/j&j1.jpg');
+            background-size: 100% 100%;
         }
         #uwb-canvas{
          
