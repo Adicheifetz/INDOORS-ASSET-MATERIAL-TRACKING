@@ -4,126 +4,193 @@
     body{
         text-align: center;
         background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 120%;
+        background-size: 100% 130%;
+      
     }
     #uwb-canvas{
-            
         background-image: url('./assets/lab1.jpg');
         background-size: 100% 100%;
         width: 900px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top:10vh;
+    }
+  #flex1{
+    display:flex;
+    flex-direction:row;
+    margin-left:10vh;
+  }
+    .table1 {
         
+        background-color:lightgray; 
+        margin-left:5vh;
     }
     h1{
         color: #2f4f4f;
-        
+          margin-top:10vh;
+          
     }
-    }
-    @media(min-width:1000px) and (max-width:1200px){
-        body {
-            text-align: center;
-            background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 110%;
-            
-        }
-        
-        #uwb-canvas {
-            background-image: url('./assets/lab1.jpg');
-            background-size: 100% 100%;
-            width: 800px;
-            height: 330px;
-            
-        }
-        
-        h1 {
-            color: #2f4f4f;
-            margin-bottom: 10vh;
-            margin-top: 10vh;
-        }
-        
-      }
-      @media(min-width:800px) and (max-width:999px)
-      {
-        body{
-            text-align: center;
-            background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 110%;
-        }
-        #uwb-canvas{
-            
-            background-image: url('./assets/lab1.jpg');
-            background-size:100% 100%;
-            width: 700px;
-            height: 275px;
-        }
-        h1{
-            color: #2f4f4f;
-            font-size: x-large;
-            margin-bottom: 6vh;
-            margin-top:6vh;
-            
-        }
-      }
-      @media(min-width:600px) and (max-width:799px)
-      {
-        body{
-            text-align: center;
-            background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 115%;
-        }
-        #uwb-canvas{
-            
-            background-image: url('./assets/lab1.jpg');
-            background-size:100% 100%;
-            width: 500px;
-            height: 200px;
-        }
-        h1{
-            color: #2f4f4f;
-            font-size: large;
-            margin-bottom: 10vh;
-            margin-top: 10vh;
-        }
-      }
-      @media(min-width:481px) and (max-width:599px)
-      {
-        body{
-            text-align: center;
-            background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 120%;
-        }
-        #uwb-canvas{
-            
-            background-image: url('./assets/lab1.jpg');
-            background-size:100% 100%;
-            width: 300px;
-            height: 130px;
 
-        }
-        h1{
-            color: #2f4f4f;
-            font-size: medium;
-            text-align: center;
+
+}
+@media(min-width:1000px) and (max-width:1200px){
+    body {
+        text-align: center;
+        background-image: url('./assets/j&j1.jpg');
+        background-size: 100% 120%;
+        
+    }
+    
+    #uwb-canvas {
+        background-image: url('./assets/lab1.jpg');
+        background-size: 100% 100%;
+        width: 800px;
+        height: 330px;
+        margin: 0 auto; 
+    }
+    #flex1{
+        display:flex;
+        flex-direction:row;
+        margin-left:10vh;
+      }
+        .table1 {
             
-           
+            background-color:lightgray; 
+            margin-left:5vh;
         }
-      }
-      @media (min-width:319px) and (max-width:480px){
-        body{
-            text-align: center;
-            background-image: url('./assets/j&j1.jpg');
-            background-size: 100% 100%;
-        }
-        #uwb-canvas{
+    
+    h1 {
+        color: #2f4f4f;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+    
+  }
+  @media(min-width:800px) and (max-width:999px)
+  {
+    body {
+        
+        background-image: url('./assets/j&j1.jpg');
+        background-size: 100% 115%;
+        display: inline-block;
+        
+    }
+    
+    #uwb-canvas {
+        background-image: url('./assets/lab1.jpg');
+        background-size: 100% 100%;
+        width: 600px;
+        height: 270px;
          
-            background-image: url('./assets/lab1.jpg');
-            background-size: 100% 100%;
-            width: 200px;
-            height: 100px;
-        }
-        h1{
-            color: #2f4f4f;
-            font-size: medium;
-            text-align: center;
-           
-        }
+    }
+    .table1 {
+        background-color:lightgray; 
+        margin-left:5vh;  
+    }
+    #flex1{
+      margin-left:5vh;
+    }
+        
+        
+    
+    h1 {
+        color: #2f4f4f;
+        text-align:center;
+    }
+  }
+  @media(min-width:600px) and (max-width:799px)
+  {
+    body{
+        text-align: center;
+        background-image: url('./assets/j&j1.jpg');
+        background-size: 100% 120%;
+    }
+    #uwb-canvas{
+        
+        background-image: url('./assets/lab1.jpg');
+        background-size:100% 100%;
+        width: 400px;
+        height: 200px;
+        margin: 0 auto; 
+    }
+    #flex1{
+        display:flex;
+        flex-direction:row;
+        margin-left:10vh;
       }
+        .table1 {
+            
+            background-color:lightgray; 
+            margin-left:5vh;
+        }
+    h1{
+        color: #2f4f4f;
+        font-size: large;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+  }
+  @media(min-width:481px) and (max-width:599px)
+  {
+    body{
+        text-align: center;
+        background-image: url('./assets/j&j1.jpg');
+        background-size: 100% 120%;
+    }
+    #uwb-canvas{
+        
+        background-image: url('./assets/lab1.jpg');
+        background-size:100% 100%;
+        width: 300px;
+        height: 130px;
+        margin: 0 auto; 
+    }
+    #flex1{
+        display:flex;
+        flex-direction:row;
+        margin-left:10vh;
+      }
+        .table1 {
+            
+            background-color:lightgray; 
+            margin-left:5vh;
+        }
+    h1{
+        color: #2f4f4f;
+        font-size: medium;
+        text-align: center;
+        
+       
+    }
+  }
+  @media (min-width:319px) and (max-width:480px){
+    body{
+        text-align: center;
+        background-image: url('./assets/j&j1.jpg');
+        background-size: 100% 100%;
+    }
+    #uwb-canvas{
+     
+        background-image: url('./assets/lab1.jpg');
+        background-size: 100% 100%;
+        width: 200px;
+        height: 100px;
+        margin: 0 auto; 
+    }
+    #flex1{
+        display:flex;
+        flex-direction:row;
+        margin-left:10vh;
+      }
+        .table1 {
+            
+            background-color:lightgray; 
+            margin-left:5vh;
+        }
+    h1{
+        color: #2f4f4f;
+        font-size: medium;
+        text-align: center;
+       
+    }
+  }

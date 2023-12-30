@@ -11,10 +11,22 @@
         <body>
             
                 <h1>UWB Position Tracking</h1>
-                <div id="canvas-container">
-                    <canvas id="uwb-canvas"></canvas>
-                </div>
-            
+                 <table id="flex1">
+                    
+                    <td class="t1"><canvas id="uwb-canvas" ></canvas></td>
+                    <td class="t2"><table class="table1" border="1" style="background-color: lightgray;">
+                        <thead>
+                            <tr>
+                                <th>Anchor Point</th>
+                                <th>Distance In Pixels</th>
+                            </tr>
+                        </thead>
+                        <tbody id="distance-table-body">
+                            <!-- Table rows will be added dynamically here -->
+                        </tbody>
+                    </table></td>
+                </table>
+                
         
             <script src="lab1.js" charset="utf-8"></script>
         </body>
