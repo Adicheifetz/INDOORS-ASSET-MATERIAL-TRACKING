@@ -62,7 +62,7 @@ function simulateUpdate() {
 
     updateTagPosition(newX, newY);
 
-    //setTimeout(simulateUpdate, 2000);
+    setTimeout(simulateUpdate, 2000);
 }
 
 simulateUpdate();
